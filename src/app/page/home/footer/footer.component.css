@@ -1,0 +1,104 @@
+.footer_container{
+  background: #D7D4FF;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer_container>h2{
+  color: #2B2B2B;
+  font-family: 'Segoe UI';
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#name, #email, #phone{
+  border: #D7D4FF;
+  height: 35px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+#mensage {
+  border: #D7D4FF;
+  height: 35px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  height: 120px;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(110, 114, 117, 0.74);
+
+  font-family: 'Segoe UI';
+  font-size: 10px;
+  font-weight: 400;
+}
+
+input[type="email"]::placeholder {
+  color: rgba(110, 114, 117, 0.74);
+
+  font-family: 'Segoe UI';
+  font-size: 10px;
+  font-weight: 400;
+}
+
+input[type="tel"]::placeholder {
+  color: rgba(110, 114, 117, 0.74);
+
+  font-family: 'Segoe UI';
+  font-size: 10px;
+  font-weight: 400;
+}
+
+#mensage::placeholder {
+  content: "Mensagem";
+  font-family: 'Segoe UI';
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 15px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  pointer-events: none;
+  color: rgba(110, 114, 117, 0.74);
+  line-height: 1;
+  z-index: 1;
+}
+
+#name, #email, #phone, #mensage, ::-webkit-input-placeholder {
+  padding-left: 15px;
+}
+
+#footer-button{
+  color: #FFF;
+
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+
+  background: #6C63FF;
+  border: #6C63FF;
+  box-shadow: 0px 5px 5px 0px rgba(23, 23, 23, 0.10);
+  border-radius: 5px;
+
+
+  width: 324px;
+  height: 35px;
+
+  margin-top: 15px;
+}
+
+#footer-button:hover{
+background: #8f88f3;
+border: #4137ff solid 1px;
+cursor: pointer;
+}

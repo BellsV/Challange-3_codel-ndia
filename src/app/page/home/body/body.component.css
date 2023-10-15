@@ -1,0 +1,54 @@
+.body_container{
+  width: auto;
+  height: auto;
+
+  padding-top: 50px;
+}
+
+.body_container__card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.459);
+  width: 340px;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+
+  margin-bottom: 30px;
+}
+
+.body_container-card__img{
+  width: 340px;
+  height: 222px;
+  border-radius: 15px 15px 0 0;
+
+  background: #FF6363;
+  margin-bottom: 20px;
+}
+
+.body_container-card__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.body_container-card__content > h3{
+  color: #2B2B2B;
+
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.body_container-card__content > p {
+  color: #555;
+
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
