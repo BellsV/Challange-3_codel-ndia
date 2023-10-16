@@ -51,6 +51,13 @@
 
 }
 
+@media (max-width: 300px) {
+  .header_container__img {
+    display: none;
+  }
+}
+
+
 @media (max-width: 480px) {
   .header_container{
     display: flex;

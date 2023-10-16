@@ -18,18 +18,16 @@
   margin-bottom: 30px;
 }
 
-#name, #email, #phone{
+#name, #email, #phone, #mensage{
   border: #D7D4FF;
   height: 35px;
+  width: 324px;
+
   border-radius: 6px;
   margin-bottom: 6px;
 }
 
 #mensage {
-  border: #D7D4FF;
-  height: 35px;
-  border-radius: 6px;
-  margin-bottom: 6px;
   height: 120px;
 }
 
@@ -102,3 +100,24 @@ background: #8f88f3;
 border: #4137ff solid 1px;
 cursor: pointer;
 }
+
+
+@media (max-width: 300px){
+  .footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #name, #email, #phone, #mensage, #footer-button{
+    width: 200px;
+  }
+  .entre-em-contato{
+    font-size: 1%;
+  }
+}
+
+
+
+
+
